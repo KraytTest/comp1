@@ -5,6 +5,8 @@ import "./styles/less/styles.css";
 import SubscriptionProvider from "./components/SubscriptionProvider";
 import ContextProvider from "./components/ContextProvider";
 
+import Table from './Table';
+
 export {
   ContextProvider,
   SubscriptionProvider,
@@ -23,10 +25,7 @@ class App extends PureComponent {
       <div
         {...other}
       >
-        <h2>
-          My awesome component
-        </h2>
-        {children}
+        <Table />
       </div>
     );
   }

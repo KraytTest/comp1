@@ -14,7 +14,10 @@
   },
   "dependencies": {
     "@prisma-cms/context": "latest",
-    "graphql": "14.0.2"
+    "graphql": "14.0.2",
+    "namor": "^2.0.2",
+    "react-table": "^7.0.0-rc.16",
+    "styled-components": "^5.0.1"
   },
   "devDependencies": {
     "@prisma-cms/front": "latest",
